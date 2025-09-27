@@ -1,0 +1,38 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 25px 25px 5px 25px;
+  background-color: black;
+  display: grid;
+  
+}
+h1{
+  font-size: 5rem;
+}
+.animeimage{
+  width: 400px;
+}
+
+.text{
+  color: white;
+  position: relative;
+  bottom: 16px;
+}
+.main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px 200px ;
+  gap: 60px;    
+}
+.two{
+  height: 220px;
+  width: 375px;
+}
+.cafe{
+  color: orangered;
+  font-size: 6rem;
+}
+div{
+  display: inline-block; 
+  margin: 5px;
+}
+
